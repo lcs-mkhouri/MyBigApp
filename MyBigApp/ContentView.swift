@@ -38,7 +38,10 @@ struct ContentView: View {
                     
                     
                 }
+                .navigationTitle("Locations")
+                .font(.system(size: 40, weight: .bold, design: .default))
             }
+            
                 }
                     
             }

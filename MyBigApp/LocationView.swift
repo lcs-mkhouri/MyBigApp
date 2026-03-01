@@ -11,15 +11,25 @@ struct LocationView: View {
     var body: some View {
         NavigationStack {
             VStack {
-                
-                HStack {
+               
                     
                     extractedView(location: "Abu Simbel", extraInfo: "Egypt")
-                }
                 
-                .navigationTitle("Locations")
-                .font(.system(size: 40, weight: .bold, design: .default))
+                    extractedView(location: "Black River Gorges Simbel", extraInfo: "Egypt")
+                extractedView(location: "Abu Simbel", extraInfo: "Egypt")
+                extractedView(location: "Abu Simbel", extraInfo: "Egypt")
+                
+                extractedView(location: "Abu Simbel", extraInfo: "Egypt")
+                extractedView(location: "Abu Simbel", extraInfo: "Egypt")
+            extractedView(location: "Abu Simbel", extraInfo: "Egypt")
+            extractedView(location: "Abu Simbel", extraInfo: "Egypt")
+            
+            
+                    
+                
+              
             }
+            
         }
 }
 }
