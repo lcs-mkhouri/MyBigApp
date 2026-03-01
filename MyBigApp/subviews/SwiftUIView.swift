@@ -18,7 +18,7 @@ struct extractedView: View{
                 .frame(width: 60, height: 50)
             
             
-            VStack{
+            VStack(alignment: .leading){
                 
                 
                 Text(location)
@@ -27,7 +27,6 @@ struct extractedView: View{
                 
                     Text(extraInfo)
                         .font(.system(size: 15, weight: .regular, design: .default))
-                        .multilineTextAlignment(.leading)
                     
     
             }
