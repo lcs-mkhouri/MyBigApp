@@ -9,16 +9,28 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            VStack {
+                HStack {
+                    
+                    
+                    extractedView(location: "Abu Simbel", extraInfo: "Egypt")
+                    Image(systemName: "chevron.forewards")
+                }
+                    .navigationTitle("Locations")
+                        .font(.system(size: 40, weight: .bold, design: .default))
+                    
+            }
+                }
+                    
+            }
+            
         }
-        .padding()
-    }
-}
 
 #Preview {
     ContentView()
 }
+
+
+
+    
