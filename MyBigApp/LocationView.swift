@@ -13,22 +13,51 @@ struct LocationView: View {
             VStack {
                
                     
-                    extractedView(location: "Abu Simbel", extraInfo: "Egypt")
+                extractedView(
+                    location: "Abu Simbel",
+                    extraInfo: "Egypt"
+                )
                 
-                    extractedView(location: "Black River Gorges Simbel", extraInfo: "Egypt")
-                extractedView(location: "Abu Simbel", extraInfo: "Egypt")
-                extractedView(location: "Abu Simbel", extraInfo: "Egypt")
+                extractedView(
+                    location: "Black River Gorges Simbel",
+                    extraInfo: "Mauritania"
+                )
+                extractedView(
+                    location: "Blue Mountains",
+                    extraInfo: "Australia"
+                )
+                extractedView(
+                    location: "Great Smoky Mountains",
+                    extraInfo: "United States"
+                )
                 
-                extractedView(location: "Abu Simbel", extraInfo: "Egypt")
-                extractedView(location: "Abu Simbel", extraInfo: "Egypt")
-            extractedView(location: "Abu Simbel", extraInfo: "Egypt")
-            extractedView(location: "Abu Simbel", extraInfo: "Egypt")
-            
-            
-                    
+                extractedView(
+                    location: "Knight Inlet",
+                    extraInfo: "Canada"
+                )
+                extractedView(
+                    location: "Kyoto",
+                    extraInfo: "Japan"
+                )
+                extractedView(
+                    location: "Penang",
+                    extraInfo: "Malaysia"
+                )
+                extractedView(
+                    location: "Tag Mahal",
+                    extraInfo: "India"
+                )
                 
-              
+                extractedView(
+                    location: "The Hightlands",
+                    extraInfo: ""
+                )
+                extractedView(
+                    location: "Verona",
+                    extraInfo: "Italy"
+                )
             }
+            .padding()
             
         }
 }
