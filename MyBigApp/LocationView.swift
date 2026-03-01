@@ -10,42 +10,42 @@ import SwiftUI
 struct LocationView: View {
     var body: some View {
         NavigationStack {
-            VStack {
+            List {
                
                     
                 extractedView(
                     location: "Abu Simbel",
-                    extraInfo: "Egypt"
+                    extraInfo: "Egypt                "
                 )
                 
                 extractedView(
                     location: "Black River Gorges Simbel",
-                    extraInfo: "Mauritania"
+                    extraInfo: "Mauritani                  "
                 )
                 extractedView(
                     location: "Blue Mountains",
-                    extraInfo: "Australia"
+                    extraInfo: "Australia                     "
                 )
                 extractedView(
                     location: "Great Smoky Mountains",
-                    extraInfo: "United States"
+                    extraInfo: "United States                                "
                 )
                 
                 extractedView(
                     location: "Knight Inlet",
-                    extraInfo: "Canada"
+                    extraInfo: "Canada             "
                 )
                 extractedView(
                     location: "Kyoto",
-                    extraInfo: "Japan"
+                    extraInfo: "Japan   "
                 )
                 extractedView(
                     location: "Penang",
-                    extraInfo: "Malaysia"
+                    extraInfo: "Malaysia  "
                 )
                 extractedView(
                     location: "Tag Mahal",
-                    extraInfo: "India"
+                    extraInfo: "India              "
                 )
                 
                 extractedView(
@@ -54,10 +54,11 @@ struct LocationView: View {
                 )
                 extractedView(
                     location: "Verona",
-                    extraInfo: "Italy"
+                    extraInfo: "Italy         "
                 )
+                
             }
-            .padding()
+        
             
         }
 }

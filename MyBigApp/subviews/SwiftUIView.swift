@@ -23,10 +23,13 @@ struct extractedView: View{
                 
                 Text(location)
                     .font(.system(size: 20, weight: .bold, design: .default))
+                    .padding(0.001)
                 
-                Text(extraInfo)
-                    .font(.system(size: 15, weight: .regular, design: .default))
+                    Text(extraInfo)
+                        .font(.system(size: 15, weight: .regular, design: .default))
+                        .multilineTextAlignment(.leading)
                     
+    
             }
             Spacer()
                 Image(systemName: "chevron.forward")
