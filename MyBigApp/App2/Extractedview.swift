@@ -7,12 +7,44 @@
 
 import SwiftUI
 
-struct SwiftUIView: View {
+struct extracted: View {
+    
+    let genre: String
+    let DateStarted : String
+    let DateEnded : String
+    let title : String
+    let author : String
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        VStack(alignment: .leading)  {
+            Text("Author")
+            Text(author)
+            
+            HStack {
+                Rectangle()
+                VStack(alignment: .leading)  {
+                    Text("Genre")
+                    Text(genre)
+                    
+                    Text("Started")
+                    Text(DateStarted)
+                    
+                    Text("Ended")
+                    Text(DateEnded)
+                }
+            }
+                  .navigationTitle(title)
+                .font(.system(size: 40, weight: .bold, design: .default))
+            
+            
+            
+    
+           
+        }
     }
 }
-
 #Preview {
-    SwiftUIView()
+    SwiftUIView2()
 }
+
