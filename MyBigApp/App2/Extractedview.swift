@@ -7,40 +7,37 @@
 
 import SwiftUI
 
-struct extracted: View {
+struct ExtractedView2: View {
     
-    let genre: String
+    let Genre: String
     let DateStarted : String
     let DateEnded : String
-    let title : String
-    let author : String
+    let Title : String
+    let Author : String
     
     var body: some View {
         
         VStack(alignment: .leading)  {
             Text("Author")
-            Text(author)
+            Text(Author)
             
             HStack {
                 Rectangle()
+                    .scaledToFit()
+                   
                 VStack(alignment: .leading)  {
                     Text("Genre")
-                    Text(genre)
+                    Text(Genre)
                     
-                    Text("Started")
+                    Text("Date Started")
                     Text(DateStarted)
                     
-                    Text("Ended")
+                    Text(" Date Finished")
                     Text(DateEnded)
                 }
             }
-                  .navigationTitle(title)
+                  .navigationTitle(Title)
                 .font(.system(size: 40, weight: .bold, design: .default))
-            
-            
-            
-    
-           
         }
     }
 }
