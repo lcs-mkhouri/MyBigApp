@@ -13,7 +13,9 @@ struct SwiftUIView2: View {
             VStack(alignment: .leading) {
                Spacer()
          Text("by George Orwell")
-                    .font(.system(size: 30, design: .default))
+                    .font(.system(size: 20, design: .default))
+                    .foregroundStyle(Color.purple.opacity(0.5))
+                    .padding(15)
                     
                 Spacer()
                 HStack {
@@ -66,11 +68,16 @@ struct SwiftUIView2: View {
                 Rectangle()
                     .foregroundColor(.white)
                 .font(.system(size: 30))
+                Spacer()
+                
                     .navigationBarTitle("1984")
+            
+                
+                
                 
                     
                   
-                Spacer()
+                
             }
         }
         
